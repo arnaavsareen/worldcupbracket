@@ -13,13 +13,13 @@ A minimal, black-and-white bracket game for the 2026 FIFA World Cup — the real
 
 ### Sharing
 
-Everything is encoded in the URL — no server, no account:
+Share links are short (~90 characters total) — the entire bracket fits in a compact code, no server needed:
 
-- `#b=...` — someone's locked bracket (read-only page)
-- `#t=...` — locked tournament results
-- `#b=...&t=...` — both (bracket + official results for scoring)
+- `yoursite.com/s/CODE` — someone's locked bracket
+- `yoursite.com/r/CODE` — locked tournament results
+- `yoursite.com/s/CODE#t=CODE` — bracket + official results together
 
-Open a friend's `#b=` link to view their picks. Open a `#t=` link with your locked bracket to auto-import results and jump to the scoreboard.
+Lock & Share copies the link automatically. Old long `#b=` links still work.
 
 ## Scoring (232 max)
 

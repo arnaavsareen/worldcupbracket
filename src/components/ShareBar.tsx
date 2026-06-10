@@ -23,7 +23,7 @@ export default function ShareBar({ label, url }: Props) {
         <p className="text-[11px] font-bold tracking-[0.15em] text-neutral-400 uppercase">
           Share
         </p>
-        <p className="truncate text-sm text-neutral-600">{url}</p>
+        <p className="break-all text-sm font-medium text-neutral-900">{url}</p>
       </div>
       <button
         onClick={copy}
